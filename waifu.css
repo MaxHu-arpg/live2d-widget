@@ -4,33 +4,33 @@
 	bottom: 66px;
 	color: #fff;
 	cursor: pointer;
-	font-size: 12px;
-	left: 0;
-	margin-left: -100px;
+	font-size: 1.9vh;
+	right: 0;
+	margin-right: -100px;
 	padding: 5px 2px 5px 5px;
 	position: fixed;
-	transition: margin-left 1s;
-	width: 60px;
-	writing-mode: vertical-rl;
+	transition: margin-right 1s;
+	width: 65px;
+	writing-mode: vertical-lr;
 }
 
 #waifu-toggle.waifu-toggle-active {
-	margin-left: -50px;
+	margin-right: -50px;
 }
 
 #waifu-toggle.waifu-toggle-active:hover {
-	margin-left: -30px;
+	margin-right: -30px;
 }
 
 #waifu {
-	bottom: -1000px;
-	left: 0;
+	bottom: 0px;
+	right: 1%;
 	line-height: 0;
 	margin-bottom: -10px;
 	position: fixed;
 	transform: translateY(3px);
 	transition: transform .3s ease-in-out, bottom 3s ease-in-out;
-	z-index: 1;
+	z-index: 9999999999999999999;
 }
 
 #waifu:hover {

@@ -13,9 +13,7 @@ function loadWidget(config) {
             <div id="waifu-tool"></div>
         </div>`);
     // https://stackoverflow.com/questions/24148403/trigger-css-transition-on-appended-element
-    setTimeout(() => {
-        document.getElementById("waifu").style.bottom = 0;
-    }, 0);
+
 
     (function registerTools() {
         tools["switch-model"].callback = () => model.loadOtherModel();
@@ -160,9 +158,6 @@ function initWidget(config, apiPath) {
         } else {
             localStorage.removeItem("waifu-display");
             document.getElementById("waifu").style.display = "";
-            setTimeout(() => {
-                document.getElementById("waifu").style.bottom = 0;
-            }, 0);
         }
     });
     if (localStorage.getItem("waifu-display") && Date.now() - localStorage.getItem("waifu-display") <= 86400000) {
