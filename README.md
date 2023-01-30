@@ -7,6 +7,17 @@
 ![](https://forthebadge.com/images/badges/powered-by-electricity.svg)
 ![](https://forthebadge.com/images/badges/makes-people-smile.svg)
 
+## Fork & CDN
+This repository was forked from [Live2D Widget](https://github.com/stevenjoezhang/live2d-widget).
+
+### 食用方法
+直接引入js即可
+```xml
+<script src="https://fastly.jsdelivr.net/gh/MaxHu-arpg/live2d-widget@latest/autoload.js"></script>
+```
+
+* 2023.1.30 添加了拖拽功能，默认右下角放置
+
 ## 特性 Feature
 
 在网页中添加 Live2D 看板娘。兼容 PJAX，支持无刷新加载。  
